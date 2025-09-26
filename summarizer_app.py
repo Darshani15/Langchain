@@ -43,6 +43,6 @@ if st.button("✨ Summarize ✨"):
                 )[0]['summary_text']
                 summaries.append("• " + summary)
 
-            # 📝 Display the final summary
+            📝 Display the final summary
             st.subheader("📌 Summary")
             st.write("\n".join(summaries))
