@@ -3,7 +3,7 @@ from transformers import pipeline
 from PyPDF2 import PdfReader
 
 st.set_page_config(page_title="📄 Summarizer Tool", page_icon="✨")
-st.title("📄 Summarizer Tool ✨")
+st.title("📄 SummarizerTool ✨")
 st.write("Upload a PDF or paste text/article below to get a summary 📑")
 
 uploaded_file = st.file_uploader("📂 Upload a PDF file", type="pdf")
